@@ -7,8 +7,7 @@ class App < Sinatra::Base
   end
   
   post '/newteam' do
-    puts params
-    puts "ppp"
+    @
     erb :team
   end
   
